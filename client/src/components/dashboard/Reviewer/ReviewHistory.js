@@ -56,7 +56,7 @@ const ReviewHistory = () => {
             {reviews.map(review => (
                 <div key={review.id} className="border rounded-lg p-4 hover:shadow-md transition-shadow">
                     <div className="flex justify-between items-start mb-2">
-                        <h4 className="font-semibold text-gray-900">{review.proposal?.title}</h4>
+                        <h4 className="font-semibold text-gray-900 break-all">{review.proposal?.title}</h4>
                         <span className="text-xs text-gray-400">
                             {new Date(review.createdAt).toLocaleDateString()}
                         </span>
