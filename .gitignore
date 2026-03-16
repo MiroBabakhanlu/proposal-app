@@ -1,0 +1,10 @@
+# Server
+server/node_modules/
+# server/.env
+server/uploads/
+server/package-lock.json
+
+# Client
+client/node_modules/
+# client/.env
+client/package-lock.json
